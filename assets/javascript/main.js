@@ -6,6 +6,11 @@ let Woof = function() {
 
 window.onload = Woof;
 
+let WoofWoof = function(){
+  doge.innerHTML = 'Woof woof!';
+}
+
+doge.onclick = WoofWoof;
 
 // document.getElementById("myFrame").addEventListener("load", myFunction);
 // function myFunction(){
