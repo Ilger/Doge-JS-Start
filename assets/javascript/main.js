@@ -16,5 +16,8 @@ let WoofWoof = function(){
 // changed it to onmousedown to make it a more snappy experience
 doge.onmousedown = WoofWoof;
 
+// insert image
 
-// document.createElement("img");
+let htmlImageElement = new Image((600/2), (797/2));
+htmlImageElement.src = 'assets/img/dogeteim.jpg'
+document.body.insertBefore(htmlImageElement, doge);
