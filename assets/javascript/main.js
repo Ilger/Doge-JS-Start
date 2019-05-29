@@ -18,9 +18,12 @@ let WoofWoof = function(){
 doge.onmouseover = WoofWoof;
 
 
-
-// insert image
-//
-// let htmlImageElement = new Image((600/2), (797/2));
-// htmlImageElement.src = 'assets/img/dogeteim.jpg'
-// document.body.insertBefore(htmlImageElement, doge);
+// onclick display image
+let handleClickDoge = function() {
+  if (dogeteim.hasAttribute('style')) {
+    document.getElementsByTagName('img')[0].removeAttribute("style")
+  } else {
+    dogeteim.style.visibility = 'hidden';
+  }
+}
+doge.addEventListener('click', handleClickDoge)
