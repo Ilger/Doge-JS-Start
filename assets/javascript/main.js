@@ -1,6 +1,8 @@
 
-// declaere button id
+// declare button id
 let doge = document.getElementById('doge');
+// declare img selector
+let dogeteim = document.getElementById('dogeteim')
 
 // onload change button text to 'Woof'
 let Woof = function() {
@@ -13,10 +15,12 @@ window.onload = Woof;
 let WoofWoof = function(){
   doge.innerHTML = 'Woof woof!';
 }
-doge.onhover = WoofWoof;
+doge.onmouseover = WoofWoof;
+
+
 
 // insert image
-
-let htmlImageElement = new Image((600/2), (797/2));
-htmlImageElement.src = 'assets/img/dogeteim.jpg'
-document.body.insertBefore(htmlImageElement, doge);
+//
+// let htmlImageElement = new Image((600/2), (797/2));
+// htmlImageElement.src = 'assets/img/dogeteim.jpg'
+// document.body.insertBefore(htmlImageElement, doge);
