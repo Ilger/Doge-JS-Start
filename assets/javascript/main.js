@@ -10,4 +10,4 @@ let WoofWoof = function(){
   doge.innerHTML = 'Woof woof!';
 }
 
-doge.onclick = WoofWoof;
+doge.onmousedown = WoofWoof;
