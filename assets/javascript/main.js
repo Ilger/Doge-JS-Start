@@ -9,12 +9,11 @@ let Woof = function() {
 
 window.onload = Woof;
 
-// on button click change button text to 'Woof woof!'
+// onhover change button text to 'Woof woof!'
 let WoofWoof = function(){
   doge.innerHTML = 'Woof woof!';
 }
-// changed it to onmousedown to make it a more snappy experience
-doge.onmousedown = WoofWoof;
+doge.onhover = WoofWoof;
 
 // insert image
 
