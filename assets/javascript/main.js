@@ -11,6 +11,14 @@ let Woof = function() {
 
 window.onload = Woof;
 
+// same as above just to explain and simplefy
+/*
+window.onload = function() {
+  document.getElementById('doge').innerHTML = 'woof';
+}
+*/
+
+
 // onhover change button text to 'Woof woof!'
 let WoofWoof = function(){
   doge.innerHTML = 'Woof woof!';
