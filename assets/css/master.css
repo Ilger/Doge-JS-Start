@@ -1,12 +1,17 @@
+.felxbox {
+  display: flex;
+  flex-direction: column;
+  width: 22.58469%;
+  height: 39.85%;
+  margin: 0 auto; }
+
 #dogeteim {
-  display: block;
-  margin: 0 auto;
-  width: 300px;
-  height: 398.5px; }
+  display: block; }
 
 #doge {
   display: block;
   margin: 20px auto;
-  background-color: yellow; }
+  background-color: yellow;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=master.css.map */

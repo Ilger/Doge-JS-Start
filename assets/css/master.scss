@@ -1,12 +1,17 @@
+.felxbox {
+  display: flex;
+  flex-direction: column;
+  width: (600px / 797px * 30%);
+  height: (797px / 600px * 30%);
+  margin: 0 auto;
 
+}
 #dogeteim {
   display: block;
-  margin: 0 auto;
-  width: (600px / 2);
-  height: (797px / 2);
 }
 #doge {
   display: block;
   margin: 20px auto;
   background-color: yellow;
+  margin: 0 auto;
 }
